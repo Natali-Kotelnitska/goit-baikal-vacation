@@ -1,152 +1,176 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <title>Baikal Travelling</title>
+   
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
+    <!-- HEADER-PAGE -->
+    <header class="header-page">
+        <div class="container">
+            <!-- LOGO -->
+            <div class="topbar section">
+            <a href="./index.html" class="logo">
+                 <img class="logo__image" src="./images/logo.jpg" alt="лого" width="54" height="54">
+                 <div>
+                 <p class="logo__title">Байкальский отдых</p>
+                 <p class="logo__text">Турагентство</p>
+                </div>
+            </a>
+            <!-- Topbar Contacts -->
+            <ul class="list header-contacts">
+                <li class="header-contacts__item">
+                    <a href="tel:+789243541540"  class="header-contacts__link">8-924-3-541-540</a>
+                </li>
+                <li class="header-contacts__item">
+                    <a href="mailto:baikalholiday@mail.ru" class="header-contacts__link">baikalholiday@mail.ru</a>
+                </li>
+            </ul>
+            <button type="button" class="button">Оставить заявку</button>
+            </div>
+            <!-- Navigation -->
+            <nav class="site-nav">
+                <ul class="list site-nav__list">
+                    <li>Бронирование</li>
+                    <li>Экскурсии</li>
+                    <li>Туры на Байкал</li>
+                    <li>О Байкале</li>
+                    <li>О нас</li>
+                </ul>
+            </nav>
+            <!-- HERO -->
+            <h1>Путешествия
+            по Байкалу</h1>
+            <p>Туры по самому красивому месту России.
+            Поехали с нами за новыми впечатлениями!</p>
+
+            <a href="#" class="button hero-button">подобрать тур</a>
+
+            <a href=""></a>
+
+        </div>
+    </header>
 
 <main>
-
-<section class="tours">
+<!-- SECTION TOURS -->
+<section class="section-tours">
     <div class="container">
         <h2 class="visually-hidden">Категории услуг</h2>
-        <ul class="tours-list">
-            <li class="tours-item">
-                <a href="" class="tours-link">
-                    <img class="tours-image" src="./images/tours/baikal-hotel.jpg" alt="Турбаза" width="256">
-                    <div class="tours-text-box">
-                    <h3 class="tours-title">Турбазы на Байкале</h3>
-                    </div>
-                </a>
-            </li>
-
-            <li class="tours-item">
-                <a href="" class="tours-link">
-                    <img class="tours-image" src="./images/tours/tours.jpg" alt="Пам'ятник" width="256">
-                    <div class="tours-text-box">
-                        <h3 class="tours-title">Экскурсии и туры</h3>
-                    </div>
-                </a>
-            </li>
-
-            <li class="tours-item">
-                <a href="" class="tours-link">
-                    <img class="tours-image" src="./images/tours/hunting-and-fishing.jpg" alt="Рыба на снегу" width="256">
+        <ul class="tours__list">
+            <li class="tours__item">
+                <a href="" class="tours__link">
+                    <img class="tours__image" src="./images/tours/baikal-hotel.jpg" alt="Турбаза" width="256">
                     
-                    <div class="tours-text-box">
-                        <h3 class="tours-title">Охота и рыбалка</h3>
-                    </div>
+                    <h3 class="tours__subtitle">Турбазы на Байкале</h3>
+                    
                 </a>
             </li>
 
-            <li class="tours-item">
-                <a href="" class="tours-link">
-                    <img class="tours-image" src="./images/tours/extreme-tours.jpg" alt="Три снегоходы" width="256">
-                    <div class="tours-text-box">
-                        <h3 class="tours-title">Экстрим туры</h3>
-                    </div>
+            <li class="tours__item">
+                <a href="" class="tours__link">
+                    <img class="tours__image" src="./images/tours/tours.jpg" alt="Пам'ятник" width="256">
+                    
+                        <h3 class="tours__subtitle">Экскурсии и туры</h3>
+                    
                 </a>
             </li>
 
-            <li class="tours-item">
-                <a href="" class="tours-link">
-                    <img class="tours-image" src="./images/tours/ships-ya.jpg" alt="Яхта в море" width="256">
-                    <div class="tours-text-box">
-                        <h3 class="tours-title">Теплоходы, яхты</h3>
-                    </div>
+            <li class="tours__item">
+                <a href="" class="tours__link">
+                    <img class="tours__image" src="./images/tours/hunting-and-fishing.jpg" alt="Рыба на снегу" width="256">
+                    
+                    
+                        <h3 class="tours__subtitle">Охота и рыбалка</h3>
+                    
                 </a>
             </li>
 
-            <li class="tours-item">
-                <a href="" class="tours-link">
-                    <img class="tours-image" src="./images/tours/baikal-beauty.jpg" alt="Озеро на фоне гор" width="256">
-                    <div class="tours-text-box">
-                        <h3 class="tours-title">Красоты Байкала</h3>
-                    </div>
+            <li class="tours__item">
+                <a href="" class="tours__link">
+                    <img class="tours__image" src="./images/tours/extreme-tours.jpg" alt="Три снегоходы" width="256">
+                    
+                        <h3 class="tours__subtitle">Экстрим туры</h3>
+                    
                 </a>
             </li>
 
-            <li class="tours-item">
-                <a href="" class="tours-link">
-                    <img class="tours-image" src="./images/tours/hotel-ulan-ude.jpg" alt="Гостинница Байкал Plaza" width="256">
-                    <div class="tours-text-box">
-                        <h3 class="tours-title">Гостиницы в Улан-Удэ</h3>
-                    </div>
+            <li class="tours__item">
+                <a href="" class="tours__link">
+                    <img class="tours__image" src="./images/tours/ships-ya.jpg" alt="Яхта в море" width="256">
+                    
+                        <h3 class="tours__subtitle">Теплоходы, яхты</h3>
+                    
                 </a>
             </li>
 
-            <li class="tours-item">
-                <a href="" class="tours-link">
-                    <img class="tours-image" src="./images/tours/transport.jpg" alt="Автобус" width="256">
-                    <div class="tours-text-box">
-                        <h3 class="tours-title">Транспорт</h3>
-                    </div>
+            <li class="tours__item">
+                <a href="" class="tours__link">
+                    <img class="tours__image" src="./images/tours/baikal-beauty.jpg" alt="Озеро на фоне гор" width="256">
+                    
+                        <h3 class="tours__subtitle">Красоты Байкала</h3>
+                    
                 </a>
             </li>
 
-            <li class="tours-item">
-                <a href="" class="tours-link">
-                    <img class="tours-image" src="./images/tours/business-tourism.jpg" alt="Человек в аеропорту" width="256">
-                    <div class="tours-text-box">
-                        <h3 class="tours-title">Деловой туризм</h3>
-                    </div>
+            <li class="tours__item">
+                <a href="" class="tours__link">
+                    <img class="tours__image" src="./images/tours/hotel-ulan-ude.jpg" alt="Гостинница Байкал Plaza" width="256">
+                    
+                        <h3 class="tours__subtitle">Гостиницы в Улан-Удэ</h3>
+                    
                 </a>
             </li>
 
-            <li class="tours-item">
-                <a href="" class="tours-link">
-                    <img class="tours-image" src="./images/tours/baikal-cruise.jpg" alt="Яхта у причала" width="256">
-                    <div class="tours-text-box">
-                        <h3 class="tours-title">Круизы по Байкалу</h3>
-                    </div>
+            <li class="tours__item">
+                <a href="" class="tours__link">
+                    <img class="tours__image" src="./images/tours/transport.jpg" alt="Автобус" width="256">
+                    
+                        <h3 class="tours__subtitle">Транспорт</h3>
+                    
                 </a>
             </li>
 
-            <li class="tours-item">
-                <a href="" class="tours-link">
-                    <img class="tours-image" src="./images/tours/winter-tours.jpg" alt="Джип едущий по снегу" width="256">
-                    <div class="tours-text-box">
-                        <h3 class="tours-title">Зимние туры</h3>
-                    </div>
+            <li class="tours__item">
+                <a href="" class="tours__link">
+                    <img class="tours__image" src="./images/tours/business-tourism.jpg" alt="Человек в аеропорту" width="256">
+                    
+                        <h3 class="tours__subtitle">Деловой туризм</h3>
+                    
                 </a>
             </li>
 
-            <li class="tours-item">
-                <a href="" class="tours-link">
-                    <img class="tours-image" src="./images/tours/baikal-map.jpg" alt="Карта" width="256">
-                    <div class="tours-text-box">
-                        <h3 class="tours-title">Карта Байкала</h3>
-                    </div>
+            <li class="tours__item">
+                <a href="" class="tours__link">
+                    <img class="tours__image" src="./images/tours/baikal-cruise.jpg" alt="Яхта у причала" width="256">
+                   
+                        <h3 class="tours__subtitle">Круизы по Байкалу</h3>
+                    
+                </a>
+            </li>
+
+            <li class="tours__item">
+                <a href="" class="tours__link">
+                    <img class="tours__image" src="./images/tours/winter-tours.jpg" alt="Джип едущий по снегу" width="256">
+                    
+                        <h3 class="tours__subtitle">Зимние туры</h3>
+                    
+                </a>
+            </li>
+
+            <li class="tours__item">
+                <a href="" class="tours__link">
+                    <img class="tours__image" src="./images/tours/baikal-map.jpg" alt="Карта" width="256">
+                    
+                        <h3 class="tours__subtitle">Карта Байкала</h3>
+                   
                 </a>
             </li>
         </ul>
     </div>
-</section>
-
-
-<section>
-
-        <div class="container page-header__container">
-            <nav class="site-nav">
-                <a href="/index.html" class="logo page-header__logo">Web<span class="logo__text--black">Studio</span></a>
-                <ul class="site-nav__list">
-                    <li class="site-nav__item">
-                        <a href="./index.html" class="site-nav__link">Студия</a>
-                    </li>
-                    <li class="site-nav__item">
-                        <a href="./portfolio.html"
-                            class="site-nav__link site-nav__link--current page-header__pseudo">Портфолио</a>
-                    </li>
-                    <li class="site-nav__item">
-                        <a href="" class="site-nav__link">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-            </div>
 </section>
 
 </main>
