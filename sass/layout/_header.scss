@@ -11,11 +11,6 @@
   background-image: url(../../images/header-bgr-image.jpg);
   background-size: cover;
 }
-.header-page::after {
-  content: "";
-  border: 1px solid white;
-  width: 100%;
-}
 
 .header-page__line {
   position: absolute;
@@ -67,7 +62,8 @@
 }
 
 .header-contacts__link {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   padding-top: 28px;
   padding-bottom: 30px;
 
@@ -79,6 +75,10 @@
 
   color: var(--main-white-color);
   text-decoration: none;
+}
+
+.header-contacts__icon {
+  margin-right: 13px;
 }
 .button {
   display: inline-block;
@@ -131,6 +131,7 @@
 
   color: var(--main-white-color);
 }
+
 // hero
 .hero-title {
   max-width: 660px;

@@ -117,12 +117,6 @@ body {
   background-size: cover;
 }
 
-.header-page::after {
-  content: "";
-  border: 1px solid white;
-  width: 100%;
-}
-
 .header-page__line {
   position: absolute;
   color: var(--border-color);
@@ -184,7 +178,12 @@ body {
 }
 
 .header-contacts__link {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 28px;
   padding-bottom: 30px;
   font-family: Roboto;
@@ -194,6 +193,10 @@ body {
   line-height: 1.3;
   color: var(--main-white-color);
   text-decoration: none;
+}
+
+.header-contacts__icon {
+  margin-right: 13px;
 }
 
 .button {
